@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+	"semicolon": true,
+	"arrowParens": "avoid",
+	"importOrder": [
+		"^@nest/(.*)$",
+		"^@config/(.*)$",
+		"^@constants/(.*)$",
+		"^@models/(.*)$",
+    "^@modules/(.*)$",
+		"^@shared/(.*)$",
+		"^[./]"
+	],
+	"importOrderSeparation": true
+}

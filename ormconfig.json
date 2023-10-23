@@ -1,0 +1,26 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "postgres",
+    "entities": [
+        "dist/models/*.entity.js"
+    ],
+    "migrationsTableName": "custom_migration_table",
+    "migrations": [
+        "dist/migrations/*.js"
+    ],
+    "cli": {
+        "migrationsDir": "src/migrations",
+        "entitiesDir": "src/models",
+        "subscribersDir": "src/subscribers"
+    },
+    "logging": true,
+    "synchronize": false,
+    "timezone": "Z",
+    "extra": {
+        "decimalNumbers": true
+    }
+}
